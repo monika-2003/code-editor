@@ -1,0 +1,57 @@
+.editor-page {
+    display: flex;
+}
+
+.connected-heading {
+    color: rgb(154, 154, 154);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    border-bottom: 0.5px solid rgb(92, 91, 91);
+}
+
+.left-wrap {
+    width: 25%;
+    background-color: black;
+    height: 100%;
+    padding: 12px;
+}
+
+.right-wrap {
+    width: 100%;
+    background-color: rgb(39, 38, 38);
+}
+
+.left-inner {
+    flex: 1;
+    height: 100vh;
+}
+
+.client-list {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+
+.editor-btns {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.editor-btn {
+    padding: 7px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.leave-btn {
+    background-color: rgb(154, 1, 1);
+    margin-bottom: 10px;
+}
